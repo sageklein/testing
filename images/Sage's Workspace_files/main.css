@@ -1,0 +1,76 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* The CSS box-sizing property allows us to include the
+padding and border in an element's total width and height. */
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(58, 105, 76);
+}
+
+nav {
+    background-color: rgb(171, 172, 175);
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:.2em;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+nav a {
+    margin: .2em 1em 0px 1em;
+    color: rgba(59, 52, 94, 0.658);
+}
+
+nav a:hover {
+    color: whitesmoke;
+}
+
+.wrapper {
+    background-color:rgba(119, 167, 133, 0.486);
+}
+h1, h2, h3 {
+    color: rgb(170, 170, 170);
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rrgb(86, 177, 219);
+}
+
+.img {
+    width:100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color: rgba(81, 82, 114, 0.849);
+}
+
+main {
+    flex: 2;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color: rgba(81, 82, 114, 0.849);
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(86, 177, 219)
+}
